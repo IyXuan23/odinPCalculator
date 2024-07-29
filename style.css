@@ -1,0 +1,30 @@
+.container {
+
+    width: 800px;
+    height: 800px;
+    border: black solid 1px;
+}
+
+.display {
+    height: 200px;
+    width: 800px;
+    border: grey solid 1px;
+}
+
+.buttons {
+    height: 600px;
+    width: 800px;
+    border: grey solid 1px;
+}
+
+button {
+
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+
+    height: 150px;
+    width: 150px;
+
+    font-size: 75px;
+}
