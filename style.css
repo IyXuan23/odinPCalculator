@@ -3,6 +3,8 @@
     width: 800px;
     height: 800px;
     border: black solid 1px;
+
+    background-color: black;
 }
 
 .display {
@@ -15,6 +17,10 @@
     height: 600px;
     width: 800px;
     border: grey solid 1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 button {
@@ -23,8 +29,15 @@ button {
     border-radius: 50%;
     text-align: center;
 
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
 
     font-size: 75px;
+
+}
+
+.row1, .row2, .row3, .row4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
